@@ -11,9 +11,9 @@
 }
 
 .dark-theme{
-    --primary: black;
+    --primary: rgb(0, 10, 19);
     --secondary: white;
-    --container: rgb(5, 0, 15);
+    --container: rgba(28, 21, 42, 0.625);
     --third:rgb(0, 255, 208);
 }
 body{
