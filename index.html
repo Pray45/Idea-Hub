@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>Idea-Hub</title>
+</head>
+<body class="dark-theme">
+
+    <nav>
+        <ul>
+            <li><a href="">IDEA-HUB</a></li>
+            <li class="hide"><a href="#">Source</a></li>
+            <li class="hide"><a href="#">Project</a></li>
+            <li class="hide"><a href="#">About</a></li>
+            <li class="hide" onclick=color() ><a href="#"><img src="./components/icons/theme.svg" alt=""> </a></li>
+            <li class="show" onclick=show() ><a href="#"><img src="./components/icons/menu.svg" alt=""></a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="slider">
+            <li onclick=hide() ><a href="#"><img src="./components/icons/cross.svg" alt=""></a></li>
+            <li><a href="#">Source</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">About</a></li>
+            <li onclick=color() ><a href="#">Theme<img src="./components/icons/theme.svg" alt=""> </a></li>
+        </ul>
+    </nav>
+
+    <div class="fp">
+        <h1 class="h1">IDEA - <span class="hub">HUB</span></h1>
+        <p> 
+            We've collected ideas that are perfect for your project . Whether you're a beginner or a seasoned builder , there's something for everyone.
+        </p>
+    </div>
+
+    <div class="sp">
+
+        <div class="container">
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+        </div>
+        
+        <svg class="hello" xmlns="http://www.w3.org/2000/svg" height="75px" viewBox="0 -960 960 960" width="75px" fill="var(--third)"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+        
+    </div>
+        
+        
+        
+    <script src="script.js"></script>
+
+</body>
+</html>
