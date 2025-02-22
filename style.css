@@ -176,10 +176,4 @@ nav a:hover{
         height: 30vh;
         width: 80vw;
     }
-    .cards:hover{
-        display: none;
-    }
-    nav a:hover{
-        display: none;
-    }
 }
