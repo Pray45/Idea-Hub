@@ -15,5 +15,18 @@ function color() {
     cyanImage.style.display = 'none'
 }
 
+function menu(){
+    const menu = document.querySelector('.side')
+    const btn = document.querySelector('.menu')
+    menu.style.display = 'flex';
+    btn.style.display = 'none';
+}
+
+function off(){
+    const menu = document.querySelector('.side')
+    const btn = document.querySelector('.menu')
+    menu.style.display = 'none';
+    btn.style.display = 'flex';
+}
 
 
