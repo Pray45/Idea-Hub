@@ -25,13 +25,13 @@ body{
 }
 nav {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(50, 50, 50);
     z-index: 998;
 }
 nav ul{
     display: flex;
-    width: 100%;
+    width: 100vw;
     list-style: none;
     justify-content: flex-end;
 }
@@ -84,6 +84,10 @@ nav a:hover{
     align-items: flex-end;
     justify-content: center;
     z-index: 997;
+}
+
+.side ul{
+    list-style: none;
 }
 
 .side img{
@@ -170,7 +174,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 3vw;
+    padding-left: 3vw;
 }
 
 .fp h1{
@@ -257,7 +261,7 @@ nav a:hover{
         font-size: 4rem;
     }
     .fp span{
-        font-size: 1.8rem;
+        font-size: 4rem;
     }
     .fp p{
         font-size: 1rem;
@@ -270,4 +274,9 @@ nav a:hover{
         height: 30vh;
         width: 80vw;
     }
+    .sp{
+        padding-left: 0px;
+    }
 }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
