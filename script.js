@@ -29,26 +29,21 @@ function off(){
     btn.style.display = 'flex';
 }
 
-document.getElementById('gohtml').addEventListener("click", function() {
+function gohtml(){
     document.getElementById('chtml').scrollIntoView({ behavior: "smooth" });
-});
-
-document.getElementById('gocss').addEventListener("click", function() {
+}
+function gocss(){
     document.getElementById('ccss').scrollIntoView({ behavior: "smooth" });
-});
-
-document.getElementById('gojs').addEventListener("click", function() {
+}
+function gojs(){
     document.getElementById('cjs').scrollIntoView({ behavior: "smooth" });
-});
-
-document.getElementById('goreact').addEventListener("click", function() {
+}
+function goreact(){
     document.getElementById('creact').scrollIntoView({ behavior: "smooth" });
-});
-
-document.getElementById('gotailwind').addEventListener("click", function() {
+}
+function gotailwind(){
     document.getElementById('ctailwind').scrollIntoView({ behavior: "smooth" });
-});
-
-document.getElementById('goflutter').addEventListener("click", function() {
+}
+function goflutter(){
     document.getElementById('cflutter').scrollIntoView({ behavior: "smooth" });
-});
+}

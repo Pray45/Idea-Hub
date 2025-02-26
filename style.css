@@ -77,7 +77,6 @@ nav a:hover{
     bottom: 0px;
     right: 0px;
     width: 140px;
-    height: 70vh;
     background-color: transparent;
     border-radius: 50px;
     backdrop-filter: blur(10px);
@@ -86,7 +85,7 @@ nav a:hover{
     align-items: flex-end;
     padding-bottom: 40px;
     justify-content: end;
-    z-index: 997;
+    z-index: 999;
 }
 .side ul{
     list-style: none;
@@ -294,6 +293,11 @@ nav a:hover{
     .imglogo{
         width: 3.5rem;
         height: 3.5rem;
+    }
+    .sections h2{
+        margin: 100px;
+        color: var(--secondary);
+        font-size: 34px;
     }
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
