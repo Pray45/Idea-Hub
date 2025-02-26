@@ -77,12 +77,15 @@ nav a:hover{
     bottom: 0px;
     right: 0px;
     width: 140px;
-    height: 100vh;
-    background-color: var(--sticky);
+    height: 70vh;
+    background-color: transparent;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
     box-shadow: 1px 2px 15px rgb(6, 0, 19);
     padding-right: 50px;
     align-items: flex-end;
-    justify-content: center;
+    padding-bottom: 40px;
+    justify-content: end;
     z-index: 997;
 }
 .side ul{
@@ -115,17 +118,14 @@ nav a:hover{
     background-color: var(--sticky);
     border-radius: 10px;
     z-index:1;
-    transition: 1s;
+    transition: .5s;
 }
 .sticky:hover{
     padding-left: 30px;
     align-items: self-start;
-    width: 20vw;
+    width: 15vw;
     transition: .5s;
     box-shadow: 1px 2px 15px rgb(6, 0, 19);
-}
-.sticky:hover::after{
-    content: 'hello';
 }
 .sticky img{
     border-radius: 20%;
@@ -154,7 +154,7 @@ nav a:hover{
     min-width: 100vw;
     height: 100vh;
 }
-.html{
+.sections{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,7 +231,7 @@ nav a:hover{
     font-size: 15px;
     color: var(--secondary);
 }
-.html h2{
+.sections h2{
     margin: 100px;
     color: var(--secondary);
     font-size: 50px;
@@ -285,7 +285,7 @@ nav a:hover{
         height: 30vh;
         width: 80vw;
     }
-    .html{
+    .sections{
         padding-left: 0px;
     }
     .problem h1{
