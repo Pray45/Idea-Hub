@@ -119,13 +119,6 @@ nav a:hover{
     z-index:1;
     transition: .5s;
 }
-.sticky:hover{
-    padding-left: 30px;
-    align-items: self-start;
-    width: 15vw;
-    transition: .5s;
-    box-shadow: 1px 2px 15px rgb(6, 0, 19);
-}
 .sticky img{
     border-radius: 20%;
     width: 50px;
@@ -141,7 +134,7 @@ nav a:hover{
     transition: .5s;
 }
 .sticky li:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: .5s;
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -195,14 +188,6 @@ nav a:hover{
 .cards:hover{
     transform: scale(1.1);
     transition: .5s;
-}
-.hello {
-    transition: 0.5s;
-}
-.hello:hover{
-    transform: scale(1.2);
-    filter: drop-shadow(1px 1px 5px var(--third));
-    transition: 0.5s;
 }
 .problem{
     display: flex;
@@ -278,7 +263,7 @@ nav a:hover{
         width: 90%;
     }
     .container{
-        grid-template-columns: auto ;
+        grid-template-columns: auto;
     }
     .cards{
         height: 30vh;
